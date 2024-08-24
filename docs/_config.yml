@@ -13,20 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dumppi Ry Open Source Documentation
+title: Dumppi Docs
 email: webmaster@dumppi.fi
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation for all the open source projects of Dumppi Ry.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://docs.dumppi.fi' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+github_username: dumppiry
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+  projects:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

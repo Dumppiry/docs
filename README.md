@@ -1,11 +1,3 @@
----
-defaults:
-  - scope:
-      path: 'README.md'
-    values:
-      permalink: 'README.html'
----
-
-# Readme
+# Documentation pages
 
 Documentation for all the projects of Dumppi Ry
