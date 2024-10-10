@@ -31,6 +31,14 @@ layout: default
     <a class="btn btn-primary" target="_blank" href="{{ page.repo }}">
       View on GitHub
     </a>
+    {% if page.technologies %}
+    <h2>Technologies:</h2>
+    <ul>
+      {% for technology in page.technologies %}
+      <li>{{technology}}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
