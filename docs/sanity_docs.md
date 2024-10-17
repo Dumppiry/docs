@@ -46,3 +46,15 @@ For extensive syntax and documentation, refer to Sanitys [documentation](https:/
     }
 } // Here we fetch events and as they have field "contactPerson" which is reference to another document, we fetch the name and email of the referenced contactPerson.
 ```
+
+## Default fields in Sanitys documents
+
+Following fields are automatically added to every document saved in the Sanity content lake.
+
+|    Name     |        Data type        |                    Description                    |
+| :---------: | :---------------------: | :-----------------------------------------------: |
+|    \_id     |         String          | Sanitys default field. Unique id of the document. |
+| \_createdAt | String (ISO-8601 UTC-0) |          When the document was created.           |
+|    \_rev    |         String          |       Revision id of the document version.        |
+|   \_type    |         String          |                 The document type                 |
+| \_updatedAt | String (ISO-8601 UTC-0) |      When was the document updated last time      |
