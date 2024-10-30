@@ -13,6 +13,6 @@ technologies:
 
 This is a fork of official [Netlify-Actions](https://github.com/netlify/actions). The fork was made to fix some bug that I do not remember. Also there was a problem with Node version. We should try to get rid of this and start using the official action again. Allthough this requires updating the Node version of [dumppi-website](./dumppi-website.html) and probably all of the packages too.
 
-More info coming soon...
+# Important!
 
-<!--TODO: Finish-->
+Dumppi-website deploy workflow depends on this so if this is edited, it is critical to make sure that the build & deploy workflow still works at [dumppi-website](https://github.com/dumppiry/dumppi-website).
