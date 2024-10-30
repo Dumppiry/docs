@@ -13,7 +13,3 @@ technologies:
 Legacy site for the annual ball of Dumppi Ry. This site got broken when we transitioned out of DatoCMS and annual ball information got integrated in to our main website. It should be discussed with the board what to do with this. Do we want the stand alone website for the annual ball or should we integrate it better to our main website?
 
 Unfortunately the repository is private at the moment but it will get open sourced in the near future.
-
-More info coming soon...
-
-<!--TODO: Finish-->
