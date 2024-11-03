@@ -10,6 +10,10 @@ technologies:
 
 DumpBot-Telegram is our telegram bot that is added to the DumppiRy official telegram group. Currently only function is to delete system messages from the channels.
 
-More info coming soon...
+## Development
 
-<!--TODO: Finish-->
+Instructions for how to get started on development are on the README of the repository
+
+## Deployment
+
+If there is a need to deploy a new version, please contact the current webmaster of Dumppi Ry.
