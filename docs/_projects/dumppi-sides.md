@@ -11,8 +11,17 @@ technologies:
   - Yarn Workspaces
 ---
 
-A Collection of websites. These can be side projects like Satama-Appro.
+A Collection of static websites build with Next.js static site generation.
 
-More info coming soon...
+# Side projects
 
-<!--TODO: Finish-->
+- Satama-Approt
+- Vappuapprot
+
+## Satama-Approt
+
+Simple one pager with cms done through Sanity Studio.
+
+## Vappuapprot
+
+Simple one pager with cms done through Sanity Studio.
